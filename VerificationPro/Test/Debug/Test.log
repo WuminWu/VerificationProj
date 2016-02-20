@@ -1,0 +1,27 @@
+﻿Build started 2016/2/20 下午 09:47:54.
+     1>Project "C:\Users\WJ\Desktop\Test\Test\Test.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Test.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\VerificationProj.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt stdafx.c
+         stdafx.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\VerificationProj.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt common.c math.c main.c
+         main.c
+     1>c:\users\wj\desktop\test\test\main.c(14): warning C4013: 'showSize' undefined; assuming extern returning int
+     1>c:\users\wj\desktop\test\test\main.c(26): warning C4133: '=' : incompatible types - from 'char (__cdecl *)(int,int)' to 'typeFunPtr'
+     1>c:\users\wj\desktop\test\test\main.c(30): warning C4133: '=' : incompatible types - from 'char (__cdecl *)(int,int)' to 'int (__cdecl *)(int,int)'
+     1>c:\users\wj\desktop\test\test\main.c(33): warning C4047: 'initializing' : 'char *' differs in levels of indirection from 'int'
+         math.c
+         common.c
+         Generating Code...
+     1>c:\users\wj\desktop\test\test\math.c(13): warning C4715: 'substraction' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\WJ\Desktop\Test\Debug\VerificationProj.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\WJ\Desktop\Test\Debug\VerificationProj.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\WJ\Desktop\Test\Debug\VerificationProj.lib" /MACHINE:X86 Debug\common.obj
+         Debug\math.obj
+         Debug\stdafx.obj
+         Debug\main.obj
+         Test.vcxproj -> C:\Users\WJ\Desktop\Test\Debug\VerificationProj.exe
+     1>Done Building Project "C:\Users\WJ\Desktop\Test\Test\Test.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.52
