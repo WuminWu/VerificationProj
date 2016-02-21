@@ -7,7 +7,7 @@ typedef struct
 	char *ptr;
 	char array[20];
 	int(*funPtr)(int a, int b);
-}reference;
+}structReference;
 
 typedef enum
 {

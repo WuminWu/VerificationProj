@@ -8,6 +8,5 @@ int add(int a, int b)
 
 char substraction(int a, int b)
 {
-	if (a >= b)
-		return (char)(a - b);
+	return (char)(a - b);
 }
